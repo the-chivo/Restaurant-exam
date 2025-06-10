@@ -1,3 +1,4 @@
+/* Visual de la navbar */
 nav a {
     margin: 0 15px;
     text-decoration: none;
@@ -19,6 +20,7 @@ nav {
     background: #ffffff;
 }
 
+/* Visual del mapa */
 #map {
     width: 800px;
     height: 400px;
@@ -27,6 +29,8 @@ nav {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
 }
 
+/* Alinea textos */
+
 h1 {
     text-align: center;
 }
@@ -34,6 +38,7 @@ h2 {
     text-align: center;
 }
 
+/* Visual del menu */
 ul {
     list-style: none;
     padding: 0;
@@ -72,7 +77,7 @@ main {
     margin-bottom: 120px;
 }
 
-
+/* Visual del recuadro del menú */
 .menuBox {
     border: 2px solid #333;
     border-radius: 12px;
