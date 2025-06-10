@@ -1,6 +1,6 @@
 const menu = [
     {
-        categoria: "rollo",
+        categoria: "Rollo",
         platos: [
             {nombre: "rollo de pollo", descripcion: "Lechuga, tomate, maiz, cebolla, pollo", precio: 4.50 },
             {nombre: "rollo de ternera", descripcion: "Lechuga, tomate, maiz, cebolla, ternera", precio: 5.50 },
