@@ -11,8 +11,8 @@ router.get("/aboutus", (req, res) => {
     res.render("aboutUs.njk", { title: "About us", menu });
 })
 
-router.get("/findus", (req, res) => {
-    res.render("findUs.njk", { title: "Find us", menu });
+router.get("/map", (req, res) => {
+    res.render("map.njk", { title: "Find us", menu });
 })
 
 export default router;
