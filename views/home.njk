@@ -5,10 +5,10 @@
   <h2>{{ categoria.categoria }}</h2>
   <ul>
     {% for plato in categoria.platos %}
-      <li>
-        <strong>{{ plato.nombre }}</strong>
-        {% if plato.descripcion %}- {{ plato.descripcion }}{% endif %}
-        - {{ plato.precio }}€
+      <li class="plato-item">
+        <span class="plato-nombre">{{ plato.nombre }}</span>
+        <span class="plato-descripcion">{{ plato.descripcion }}</span>
+        <span class="plato-precio">{{ plato.precio }}€</span>
       </li>
     {% endfor %}
   </ul>

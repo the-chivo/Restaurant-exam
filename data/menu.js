@@ -2,11 +2,11 @@ const menu = [
     {
         categoria: "Rollo",
         platos: [
-            {nombre: "rollo de pollo", descripcion: "Lechuga, tomate, maiz, cebolla, pollo", precio: 4.50 },
-            {nombre: "rollo de ternera", descripcion: "Lechuga, tomate, maiz, cebolla, ternera", precio: 5.50 },
-            {nombre: "rollo de cerdo", descripcion: "Lechuga, tomate, maiz, cebolla, cerdo", precio: 5.00 },
-            {nombre: "rollo mixto", descripcion: "Lechuga, tomate, maiz, cebolla, cerdo, pollo", precio: 5.00 },
-            {nombre: "rollo de falafel", descripcion: "Lechuga, tomate, maiz, cebolla, falafel", precio: 3.50 },
+            {nombre: "Rollo de pollo", descripcion: "Lechuga, tomate, maiz, cebolla, pollo", precio: 4.50 },
+            {nombre: "Rollo de ternera", descripcion: "Lechuga, tomate, maiz, cebolla, ternera", precio: 5.50 },
+            {nombre: "Rollo de cerdo", descripcion: "Lechuga, tomate, maiz, cebolla, cerdo", precio: 5.00 },
+            {nombre: "Rollo mixto", descripcion: "Lechuga, tomate, maiz, cebolla, cerdo, pollo", precio: 5.00 },
+            {nombre: "Rollo de falafel", descripcion: "Lechuga, tomate, maiz, cebolla, falafel", precio: 3.50 },
         ]
     },
     {
@@ -52,11 +52,11 @@ const menu = [
     {
         categoria: "Bebidas",
         platos: [
-            {nombre: "Coca Cola", precio: 1.50 },
-            {nombre: "Fanta Naranja", precio: 1.50 },
-            {nombre: "Agua", precio: 1.00 },
-            {nombre: "Cerveza", precio: 2.00 },
-            {nombre: "tinto de verano", precio: 2.50 },
+            {nombre: "Coca Cola", descripcion:"", precio: 1.50 },
+            {nombre: "Fanta Naranja", descripcion: "", precio: 1.50 },
+            {nombre: "Agua",descripcion:"", precio: 1.00 },
+            {nombre: "Cerveza",descripcion:"", precio: 2.00 },
+            {nombre: "Tinto de verano",descripcion: "", precio: 2.50 },
         ]
     }   
 ]
