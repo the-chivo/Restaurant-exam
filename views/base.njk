@@ -8,7 +8,15 @@
 <body>
     
     <header>
-        <img src="/logo.jpg" alt="Logo del restaurante" style="height:300px;">
+        <nav>
+            <a href="/">Menú</a>
+            <a href="/aboutus">Sobre nosotros</a>
+            <a href="/map">Donde encontrarnos</a>
+        </nav>
+        
+        <div style="text-align: center;">
+            <img src="/logo.jpg" alt="Logo del restaurante" style="height:300px;">
+        </div>
     </header>
     <main>
         {% block content %}{% endblock %}
