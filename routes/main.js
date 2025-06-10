@@ -4,3 +4,5 @@ const router = express.Router();
 router.get("/", (req, res) => {
     res.render("home.njk", { titulo: "Home"});  
 })
+
+export default router;
