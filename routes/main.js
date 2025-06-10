@@ -12,7 +12,7 @@ router.get("/aboutus", (req, res) => {
 })
 
 router.get("/map", (req, res) => {
-    res.render("map.njk", { title: "Find us", menu });
+    res.render("map.njk", { title: "Map", menu });
 })
 
 export default router;
