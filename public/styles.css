@@ -38,7 +38,7 @@ ul {
     list-style: none;
     padding: 0;
     width: 600px;      
-    margin: 0 auto;    
+    margin: 0 auto 10px auto;    
 }
 
 ul li {
@@ -66,4 +66,8 @@ ul li {
 .plato-precio {
     text-align: right;
     font-weight: bold;
+}
+
+main {
+    margin-bottom: 120px;
 }
